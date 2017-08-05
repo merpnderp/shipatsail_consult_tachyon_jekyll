@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://shipatsail.com/" />
+  <link rel="icon" type="image/png" href="/images/icon.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" />
+</head>
+
+<body class="">
+  {% include navbar.html %}
+  <div class="center mw10 ph3-ns ">
+    <div class="cf ph2-ns ">
+      <div class="fl f-headline lh-solid w-100 w-90-ns pa2 ml6 ">
+        {{ page.title }}
+      </div>
+      <div class="fl w-100 w-90-ns pa2 ml6 ">
+        {{content}}
+
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</body>

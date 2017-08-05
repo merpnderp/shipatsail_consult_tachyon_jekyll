@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://shipatsail.com/" />
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" />
+</head>
+
+<body class="">
+  {% include navbar.html %}
+  <div class="center mw10 ph3-ns ">
+    <div class="cf ph2-ns ">
+      <div class="fl w-100 w-60-ns pa2 ">
+        <div class="bg-white pt4 ">
+          <p class="f1 fw6 lh-title ">Solve problems faster, with less hassle.</p>
+          <p class="f4 lh-copy"> My name is Kaleb Murphy. I help companies and people just like you.</p>
+        </div>
+      </div>
+      <div class="fl w-100 w-40-ns pa2 mt4 dn db-ns ">
+        <div class="bg-white pv4 show1">
+          <ul class="list pl0">
+            <li>Customer acquisition: growth, retention, revenue, ROI</li>
+            <li>Modernize your legacy Javascript applications with React</li>
+            <li>New front ends for existing WebAPI's</li>
+            <li>Mobile applications to reach your customers everywhere</li>
+            <li>Custom development</li>
+            <li>Third party integration</li>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="center w-90 show2">
+    <hr/>
+  </div>
+  <div class="center mw10 ph3-ns show2">
+    <div class="cf ph2-ns ">
+      <div class="fl w-100 w-80-ns pa2 ">
+        <p class="f2 lh-copy pt0 mt0">You should contact me if any of these are true...</p>
+        <ul class="f3">
+          <li>You don't have the skills in house to create profitable applications and services.</li>
+          <li>You need third party applications integrated, but don't know where to start.</li>
+          <li>You need better insight into the effects of your marketing campaigns.</li>
+          <li>Your site has high customer acquisition costs.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="center w-90 show3">
+    <hr/>
+  </div>
+  <div class="center mw10 ph3-ns show3">
+    <div class="cf ph2-ns ">
+      <div class="fl w-100 w-60-ns pa2 ">
+        <p class="f2 lh-copy">Interested in working together? <a href="mailto:kalebmurphy@shipatsail.com">Let’s talk.</a></p>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.show1', { delay: 200 });
+    sr.reveal('.show2', { delay: 400 });
+    sr.reveal('.show3', { delay: 700 });
+  </script>
+</body>
+
+</html>
